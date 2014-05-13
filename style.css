@@ -1,0 +1,46 @@
+/*
+Theme Name: BYU Template
+Theme URI: http://web.byu.edu/resources
+Description: The BYU theme for WordPress.
+Author: BYU Web Community
+Author URI: http://web.byu.edu/
+Version: 2.0
+Tags: responsive, blue, white, custom-header, custom-background, custom-menu
+GitHub Theme URI: https://github.com/birdman1155/byu
+GitHub Branch: master
+*/
+html {
+	margin-top:0 !important;
+}
+#content .wrapper {
+	width:auto;
+	padding:0;
+}
+.col {
+	display:inline-table;
+	text-align: left;
+	padding: 0px 20px 20px 20px;
+}
+#colophon {
+	text-align:center;
+}
+.wrapper .col ul{
+	list-style: none;
+	margin-left:0;
+}
+#feature {
+	max-width:940px;
+	max-height:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+.news-thumbnail {
+	width:100%;
+}
+.news-thumbnail img {
+	max-width:100%;
+	max-height:100%;
+}
+
+
+
