@@ -67,6 +67,7 @@
 		<nav id="primary-nav" role="navigation">
             <ul>
                 <?php wp_nav_menu( array(
+        	    'theme_location'	=> 'primary',
                     'container'         => 'false',
                     'items_wrap'        => '%3$s',
                     'walker'            => new T5_Nav_Menu_Walker_Simple()
@@ -80,10 +81,10 @@
 		<nav id="secondary-nav" role="navigation">
       <ul>
         <?php wp_nav_menu( array(
-   					'menu'											=> 'Secondary Menu',
-   					'container'									=> 'false',
+   					'theme_location'							=> 'secondary',
+   					'container'								=> 'false',
    					'items_wrap'								=> '%3$s',
-   					'walker'										=> new T5_Nav_Menu_Walker_Simple()
+   					'walker'								=> new T5_Nav_Menu_Walker_Simple()
    
  				) ); ?>
       </ul>
